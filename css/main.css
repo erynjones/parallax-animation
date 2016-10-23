@@ -14,12 +14,12 @@ img {
 
 .sun-2 {
   position: absolute;
-  top: 600px;
+  top: 1000px;
 }
 
 .sun-3 {
   position: absolute;
-  top: 1400px;
+  top: 1800px;
 }
 
 .rel {
@@ -30,5 +30,7 @@ img {
   padding: calc(3em + 30vw) 0 0;
   background: url("../images/background-texture.svg") center center / cover no-repeat;
   padding-bottom: 1em;
-  top: 1500px;
+  position: absolute;
+  top: 550px;
+  width: 100%;
 }
