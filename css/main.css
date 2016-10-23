@@ -2,3 +2,33 @@ body {
   margin: 0;
   padding: 0;
 }
+
+img {
+  width: 100%;
+}
+
+.sun {
+  position: absolute;
+  top: -220px;
+}
+
+.sun-2 {
+  position: absolute;
+  top: 600px;
+}
+
+.sun-3 {
+  position: absolute;
+  top: 1400px;
+}
+
+.rel {
+  position: relative;
+}
+
+.banner {
+  padding: calc(3em + 30vw) 0 0;
+  background: url("../images/background-texture.svg") center center / cover no-repeat;
+  padding-bottom: 1em;
+  top: 1500px;
+}
