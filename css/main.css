@@ -32,6 +32,12 @@ h2 {
   text-align: center;
 }
 
+p {
+  color: #dd7e8e;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
 .sun {
   position: absolute;
   top: -65px;
@@ -39,12 +45,12 @@ h2 {
 
 .sun-2 {
   position: absolute;
-  top: 250px;
+  top: 400px;
 }
 
 .sun-3 {
   position: absolute;
-  top: 425px;
+  top: 575px;
 }
 
 .rel {
@@ -61,8 +67,12 @@ h2 {
 
 @media only screen and (min-width: 22em) {
 
+  .banner {
+    top: 140px;
+  }
+
   .sun-3 {
-    top: 455px;
+    top: 600px;
   }
 }
 
@@ -77,40 +87,142 @@ h2 {
   }
 
   .sun-2 {
-    top: 275px;
+    top: 380px;
   }
 
   .sun-3 {
-    top: 510px;
+    top: 610px;
   }
 }
 
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 30em) {
 
+  .sun {
+    top: -160px;
+  }
+
+  p {
+    font-size: 1.25em;
+    margin-left: 8em;
+    margin-right: 3em;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  .banner {
+    top: 260px;
+  }
+
+  .sun-2 {
+    top: 600px;
+  }
+
+  .sun-3 {
+    top: 1010px;
+  }
 }
 
 @media only screen and (min-width: 60em) {
 
   .sun {
-    position: absolute;
     top: -220px;
   }
 
   .sun-2 {
-    position: absolute;
-    top: 1000px;
+    top: 805px;
   }
 
   .sun-3 {
-    position: absolute;
-    top: 1800px;
+    top: 1350px;
   }
 
   .banner {
-    top: 550px;
+    top: 350px;
+  }
+
+  p {
+    font-size: 1.75em;
+    margin-left: 9em;
+    margin-right: 4em;
+  }
+
+  h1 {
+    font-size: 4em;
+  }
+
+  h2 {
+    font-size: 2.5em;
   }
 }
 
 @media only screen and (min-width: 80em) {
 
+  .sun {
+    top: -340px;
+  }
+
+  .sun-2 {
+    top: 930px;
+  }
+
+  .sun-3 {
+    top: 1720px;
+  }
+
+  .banner {
+    top: 435px;
+  }
+
+  p {
+    font-size: 2em;
+    margin-left: 12em;
+    margin-right: 4em;
+  }
+
+  h1 {
+    font-size: 4.5em;
+  }
+
+  h2 {
+    font-size: 3.5em;
+  }
+}
+
+@media only screen and (min-width: 80em) {
+
+  .sun {
+    top: -570px;
+  }
+
+  .sun-2 {
+    top: 1650px;
+  }
+
+  .sun-3 {
+    top: 3050px;
+  }
+
+  .banner {
+    top: 840px;
+  }
+
+  p {
+    font-size: 3.5em;
+    margin-left: 15em;
+    margin-right: 5em;
+  }
+
+  h1 {
+    font-size: 6em;
+  }
+
+  h2 {
+    font-size: 5em;
+  }
 }
