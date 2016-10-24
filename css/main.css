@@ -194,28 +194,28 @@ p {
   }
 }
 
-@media only screen and (min-width: 80em) {
+@media only screen and (min-width: 90em) {
 
   .sun {
-    top: -570px;
+    top: -350px;
   }
 
   .sun-2 {
-    top: 1650px;
+    top: 1100px;
   }
 
   .sun-3 {
-    top: 3050px;
+    top: 1900px;
   }
 
   .banner {
-    top: 840px;
+    top: 440px;
   }
 
   p {
-    font-size: 3.5em;
-    margin-left: 15em;
-    margin-right: 5em;
+    font-size: 2.25em;
+    margin-left: 7em;
+    margin-right: 3em;
   }
 
   h1 {
